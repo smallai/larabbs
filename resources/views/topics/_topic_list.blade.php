@@ -36,6 +36,11 @@
             <span class="timeago" title="最后活跃于：{{ $topic->updated_at }}">{{ $topic->updated_at->diffForHumans() }}</span>
           </small>
 
+          <a class="text-secondary" href="{{ route('categories.show', $topic->category_id) }}" title="{{ $topic->category->name }}">
+            <i class="far fa-folder"></i>
+            {{ $topic->category->name }}
+          </a>
+
         </div>
       </li>
 
