@@ -20,7 +20,7 @@ class UsersController extends Controller
 
     public function update(UserRequest $request, User $user)
     {
-        $user->save($request->all());
+        $user->update($request->all());
         return redirect()->route('users.show', compact('user'))
             ->with('success', '个人资料更新成功！');
     }
