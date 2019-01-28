@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "44f00f7ff5843d2ddabf060c56844fc7",
+    "content-hash": "9cba17992f48365c411536c3366823d8",
     "packages": [
         {
             "name": "barryvdh/laravel-ide-helper",
