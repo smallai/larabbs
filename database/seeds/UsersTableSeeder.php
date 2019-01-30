@@ -46,6 +46,7 @@ class UsersTableSeeder extends Seeder
         $user = User::find(1);
         $user->name = 'hongjie';
         $user->email = 'hongjie_ai@163.com';
+        $user->password = bcrypt('123456');
         $user->avatar = 'https://iocaffcdn.phphub.org/uploads/images/201710/14/1/ZqM7iaP4CR.png';
         $user->save();
     }
